@@ -10,18 +10,22 @@
 
 
 
-function contadorvocales(){
-    let frase = prompt("ingresa una frase");
-    let contador = 0;
-    let vocales  =["a","e","i","o","u"];
+// function contadorvocales(){
+//     let frase = prompt("ingresa una frase");
+//     let contador = 0;
+//     let vocales  =["a","e","i","o","u"];
 
 
-    for(let i = 0; i < frase.length;i++){
-        if(vocales.indexOf(frase[i])>= 0){
-            contador++
-        }
-    }
+//     for(let i = 0; i < frase.length;i++){
+//         if(vocales.indexOf(frase[i])>= 0){
+//             contador++
+//         }
+//     }
 
-    return contador
-}
-console.log(contadorvocales())
+//     return contador
+// }
+// console.log(contadorvocales())
+
+
+
+
