@@ -1,0 +1,7 @@
+.tabla,td{
+    border: 1px solid blue;
+}
+
+td{
+    padding: 4px;
+}
