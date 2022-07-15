@@ -1,22 +1,80 @@
-let numero1 = parseInt(prompt('ingresa un numero'));
 
-do{
-  if(isNaN(numero1)){
-    alert('no valido,asegurate de ingresar un numero');
-    numero1 = parseInt(prompt('ingresa un numero'));
-  }
-}while(isNaN(numero1)){
-   let numero2 = parseInt(prompt("ingresa el segundo valor"));
-   do{
-    if(isNaN(numero2)){
-      alert("no es un numero")
+    
+  while(confirm("realiza una suma de dos numero")){
+    let numero1 = parseInt(prompt('ingresa un numero'));
+    let numero2 = parseInt(prompt('ingresa un numero'));
+    let resultado = numero1+numero2;
+    document.write("el resultado es "+resultado+"<br>")
+    
+    if(confirm('realizar una suma')){
+      let numero1 = parseInt(prompt('ingresa un numero'));
+      let numero2 = parseInt(prompt('ingresa un numero'));
+      let resultado = numero1+numero2;
+      document.write("el  resultado es "+resultado+"<br>")
+    }else{
+      break
     }
-   }while(isNaN(numero2)){
-     if(confirm("confirma tus numeros")){
-            
-     }else{
-      console.log(numero1+numero2)
-     }
-   }
-   }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   

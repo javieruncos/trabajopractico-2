@@ -1,6 +1,9 @@
+// let numero1 = prompt("ingresa un numero");
 let numero1 = prompt("ingresa un numero");
 
-for(let i = 0;i <= numero1;i++){
-    console.log(numero1.repeat(i))
+
+
+ for(let suma = 0; suma  <= numero1;suma++){
     
-}
+    document.write(numero1.repeat(suma+1));
+ }

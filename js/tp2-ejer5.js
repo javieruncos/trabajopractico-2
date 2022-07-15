@@ -1,16 +1,19 @@
-let numero = parseInt(prompt('ingressa un numero de dni'))
+let numero = parseInt(prompt('ingresa un numero de dni'));
 
-console.log(numero)
 
 
   do{
-
-  confirm('nuevo');{
-    break
-  }
-    
-    
-}while(numer>=0 && umero<=99999999){
+   if(isNaN(numero)){
+    alert('error')
+    if(confirm('quieres volver a intentarlo?')){
+      numero=parseInt(prompt('ingresa un numero de dni'))
+        
+    }else{
+        break
+    }
+   }
+  
+}while(isNaN(numero)){
 
     if(numero >=0 && numero <= 99999999){
         let resultado = numero % 23;
@@ -86,10 +89,12 @@ console.log(numero)
                 break;
                 default:
                     alert('no valido')
+
         }
-    }
-    confirm('quieres volver a realizar la operacion');{
-        break
+    }else if(numero>=0&&numero!=99999999){
+        alert('no valido')
+
+        
     }
 }
     

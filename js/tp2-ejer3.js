@@ -1,18 +1,15 @@
 
-    let texto1 = prompt("ingresa un texto");
-    let texto2 = prompt("ingresa un texto");
-    let texto3 = prompt("ingresa un texto");
-    let texto4 = prompt("ingresa un texto");
+  
+  for(let i = 0;i<=100;i++){
+      
+      if(confirm('confirma tu frase')){
+          let frase = prompt('ingresa una frase'); 
+          i++
+          document.write(frase+"-")
+    }else{
+          break
 
-    
-    
-        if(confirm("confirma tu frase: ")){
-        
-        }else{
-            console.log(texto1 + "-" + texto2 + "-" +texto3 + "-" +texto4)
-
-        }
-
-
+      }
+  }
     
       
