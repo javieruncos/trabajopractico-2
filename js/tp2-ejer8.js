@@ -1,4 +1,4 @@
-// let numero1 = prompt("ingresa un numero");
+
 let numero1 = prompt("ingresa un numero");
 
 
